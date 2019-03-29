@@ -16,6 +16,7 @@
     <!-- Custom styles for this template -->
 		<link href="css/2-col-portfolio.css" rel="stylesheet">
 		<link href="css/navbar.css" rel="stylesheet">
+		<link href="css/modalimage.css" rel="stylesheet">
 </head>
 
 <div class="container">
@@ -51,6 +52,7 @@
 		<h5><b><a href="https://twitter.com/PapaBeefolini"><font color="#1da1f2">Twitter <img src="emotes/twitter.png"></font></a></b>
 		<b><a href="https://steamcommunity.com/id/AwesomeX-/"><font color="#252525">Steam <img src="emotes/steam.png"></font></a></b>
 		<b><a href="https://www.youtube.com/channel/UCDcoYs-u58o6ty_pyfGT9Qw"><font color="#c2191e">Youtube <img src="emotes/youtube.png"></font></a></b>
+		<b><a href="https://papabrickolini.itch.io/"><font color="#fa5c5c">itch.io <img src="emotes/itchio.png"></font></a></b>
 		<b><a href="https://sketchfab.com/awesomex"><font color="#1aaad9">Sketchfab <img src="emotes/sketchfab.png"></font></a></b></h5>
 		<h6><b><font color="#8c9eff">Papa Brickolini#9456 <img src="emotes/discord.png"></font></b></h4>
 	</div>
@@ -60,16 +62,16 @@
 <div class="textbox">
 		<div class="row bottom-margin">
 			<div class="col-lg-6 portfolio-item">
-				<img class="card-img-top card fatimageoutline" src="images/OgelIsland/7-c.png" alt="">
+				<img class="card-img-top card fatimageoutline myImg" src="images/OgelIsland/7-c.png" alt="<a href='unreleased-projects.html'><font color='#aae64d'><i>Ogel Island</i></font></a>">
 			</div>
 			<div class="col-lg-6 portfolio-item">
-				<img class="card-img-top card fatimageoutline" src="images/RR/5.png" alt="">
+				<img class="card-img-top card fatimageoutline myImg" src="images/RR/5.png" alt="<a href='racers-remastered.html'><font color='#FFD500'><i>Racers Remastered</i></font></a>">
 			</div>
 			<div class="col-lg-6 portfolio-item">
-				<img class="card-img-top card fatimageoutline" src="images/Zibulon2/5-c.png" alt="">
+				<img class="card-img-top card fatimageoutline myImg" src="images/Zibulon2/5-c.png" alt="<a href='released-projects.html'><font color='#93ED93'><i>Zibulon 2</i></font></a>">
 			</div>
 			<div class="col-lg-6 portfolio-item">
-				<img class="card-img-top card fatimageoutline" src="images/Harvest/2-c.png" alt="">
+				<img class="card-img-top card fatimageoutline myImg" src="images/Harvest/2-c.png" alt="<a href='prototypes.html'><font color='#a78d76'><i>Harvest</i></font></a>">
 			</div>
 		</div>
 	</div>
@@ -80,6 +82,13 @@
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- The Modal -->
+<div id="myModal" class="modal" onclick="document.getElementById('myModal').style.display='none'">
+	<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+	<img class="modal-content" id="img01">
+	<div id="caption"></div>
+</div>
+<script src="javascript/modalimage.js"></script>
 
 </body>
 

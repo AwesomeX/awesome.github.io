@@ -16,6 +16,7 @@
     <!-- Custom styles for this template -->
 		<link href="css/2-col-portfolio.css" rel="stylesheet">
 		<link href="css/navbar.css" rel="stylesheet">
+		<link href="css/modalimage.css" rel="stylesheet">
 </head>
 
 <div class="container">
@@ -39,8 +40,7 @@
 <div class="container">
 	<div class="textbox">
 		<h1 class="card-title text-white droppy"><b>Models & Artwork</b></h1>
-		<h6 class="card-title text-white droppy">I'm not much of an artist, but I make shit every now and then.</h6>
-		<h6 class="card-title text-white droppy">These are not my only artwork however, I've made various bits over the years for projects both 2D & 3D.</h6>
+		<h6 class="card-title text-white droppy">I'm not much of an artist, but I make shit every now and then.<br>These are not my only artwork however, I've made various bits over the years for projects both 2D & 3D.</h6>
 		<h6 class="card-title text-white droppy">Here's a few that were either not made with a specific project in mind or were just cool enough to show off a bit.</h6>
 	</div>
 	&nbsp;
@@ -80,10 +80,10 @@
 				</div>
 			</div>
 			<div class="col-lg-6 portfolio-item">
-				<img class="card-img-top card fatimageoutline" src="images/LowPolyForestScene.png" alt="">
+				<img class="card-img-top card fatimageoutline myImg" src="images/LowPolyForestScene.png" alt="">
 			</div>
 			<div class="col-lg-6 portfolio-item">
-				<img class="card-img-top card fatimageoutline" src="images/OgelIsland/3.png" alt="">
+				<img class="card-img-top card fatimageoutline myImg" src="images/OgelIsland/3.png" alt="">
 			</div>
 		</div>
 	</div>
@@ -94,6 +94,12 @@
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<div id="myModal" class="modal" onclick="document.getElementById('myModal').style.display='none'">
+	<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+	<img class="modal-content" id="img01">
+	<div id="caption"></div>
+</div>
+<script src="javascript/modalimage.js"></script>
 
 </body>
 
