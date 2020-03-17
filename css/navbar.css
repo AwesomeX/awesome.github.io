@@ -85,11 +85,29 @@ padding-bottom: 4px;
 .navbar-ricochet
 {
   background-color: rgba(102, 53, 53, 0.5);
-  border: 2px solid rgb(172, 56, 56);
+  border: 2px solid rgb(194, 58, 58);
 }
 
 .navbar-ricochet a:hover {
   background: rgba(163, 98, 98, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-racers-active {
+  background: rgba(226, 226, 226, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-racers
+{
+  background-color: rgba(185, 184, 169, 0.5);
+  border: 2px solid #FFD500;
+}
+
+.navbar-racers a:hover {
+  background: rgba(255, 255, 255, 0.5);
   color: #ffffff;
   border-radius: 4px;
 }
@@ -144,6 +162,78 @@ padding-bottom: 4px;
 
 .navbar-planetjumper a:hover {
   background: rgba(248, 197, 240, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-ogelisland-active {
+  background: rgba(219, 199, 169, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-ogelisland
+{
+  background-color: rgba(185, 163, 116, 0.5);
+  border: 2px solid #aae64d;
+}
+
+.navbar-ogelisland a:hover {
+  background: rgba(248, 236, 197, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-washedashore-active {
+  background: rgba(228, 213, 147, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-washedashore
+{
+  background-color: rgba(180, 179, 129, 0.5);
+  border: 2px solid #fdfda0;
+}
+
+.navbar-washedashore a:hover {
+  background: rgba(255, 242, 185, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-frost-active {
+  background: rgba(218, 218, 218, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-frost
+{
+  background-color: rgba(177, 177, 177, 0.5);
+  border: 2px solid #c9e0e2;
+}
+
+.navbar-frost a:hover {
+  background: rgba(241, 241, 241, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-piggame-active {
+  background: rgba(218, 218, 218, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-piggame
+{
+  background-color: rgba(172, 159, 168, 0.5);
+  border: 2px solid #feb9e5;
+}
+
+.navbar-piggame a:hover {
+  background: rgba(241, 241, 241, 0.5);
   color: #ffffff;
   border-radius: 4px;
 }
