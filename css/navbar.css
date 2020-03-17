@@ -1,6 +1,16 @@
+#bottom-right
+{
+right: 0;
+bottom: 0;
+position: absolute;
+padding-right: 4px;
+padding-bottom: 4px;
+}
+
 .navbar 
 {
   margin: auto;
+  margin-bottom: -2px;
   width: 100%;
   overflow: hidden;
   background-color: hsla(180, 5%, 70%, 0.5);
@@ -10,7 +20,8 @@
   top: 8px;
 }
 
-.navbar a {
+.navbar a 
+{
   float: left;
   text-align: center;
   height: 36px;
@@ -19,10 +30,13 @@
   padding: 4px 12px;
   text-decoration: none;
   font-size: 17px;
+  margin-right: 4px;
 }
 
-.navbar a:last-child {
+.navbar a:last-child 
+{
   border-right: none;
+  margin-right: 0px;
 }
 
 .navbar a:hover {
@@ -33,6 +47,103 @@
 
 .navbar-active {
   background: hsla(0, 0%, 90%, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-sub
+{
+  margin-left: 12px;
+  float: left;
+  max-width: max-content;
+  width: auto;
+  justify-content: left;
+}
+
+.navbar-sub a
+{
+  margin-right: 4px;
+}
+
+.navbar-sub a:last-child
+{
+  margin-right: 0px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navbar-ricochet-active {
+  background: rgba(158, 52, 52, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-ricochet
+{
+  background-color: rgba(102, 53, 53, 0.5);
+  border: 2px solid rgb(172, 56, 56);
+}
+
+.navbar-ricochet a:hover {
+  background: rgba(163, 98, 98, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-zibulon2-active {
+  background: rgba(175, 219, 169, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-zibulon2
+{
+  background-color: rgba(115, 155, 115, 0.5);
+  border: 2px solid rgb(113, 209, 142);
+}
+
+.navbar-zibulon2 a:hover {
+  background: rgba(181, 235, 176, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-zibulon-active {
+  background: rgba(219, 218, 169, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-zibulon
+{
+  background-color: rgba(155, 152, 115, 0.5);
+  border: 2px solid rgb(228, 203, 122);
+}
+
+.navbar-zibulon a:hover {
+  background: rgba(235, 234, 176, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-planetjumper-active {
+  background: rgba(209, 169, 219, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-planetjumper
+{
+  background-color: rgba(154, 115, 155, 0.5);
+  border: 2px solid rgb(206, 109, 190);
+}
+
+.navbar-planetjumper a:hover {
+  background: rgba(248, 197, 240, 0.5);
   color: #ffffff;
   border-radius: 4px;
 }

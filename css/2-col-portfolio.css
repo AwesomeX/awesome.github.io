@@ -13,8 +13,36 @@ body#racers {
   background-image: url('../backgrounds/racers.png');
 }
 
+body#ricochet {
+  background-image: url('../backgrounds/ricochet.png');
+}
+
 body#zibulon {
   background-image: url('../backgrounds/zibulon.png');
+}
+
+body#zibulon1 {
+  background-image: url('../backgrounds/zibulon1.png');
+}
+
+body#planetjumper {
+  background-image: url('../backgrounds/planetjumper.png');
+}
+
+body#ogelisland {
+  background-image: url('../backgrounds/ogelisland.png');
+}
+
+body#piggame {
+  background-image: url('../backgrounds/piggame.png');
+}
+
+body#washedashore {
+  background-image: url('../backgrounds/washedashore.png');
+}
+
+body#frost {
+  background-image: url('../backgrounds/frost.png');
 }
 
 body#deathmatch {
@@ -83,4 +111,13 @@ box-shadow: 0 0 5px 5px #888;
 .bottom-margin-small
 { 
   margin-bottom:-10px;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
