@@ -76,6 +76,24 @@ padding-bottom: 4px;
   display: table;
 }
 
+.navbar-grave-active {
+  background: #39145e;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.navbar-grave
+{
+  background-color: rgba(19, 4, 34, 0.5);
+  border: 2px solid #39145e;
+}
+
+.navbar-grave a:hover {
+  background: rgba(48, 12, 83, 0.5);
+  color: #ffffff;
+  border-radius: 4px;
+}
+
 .navbar-ricochet-active {
   background: rgba(158, 52, 52, 0.5);
   color: #ffffff;

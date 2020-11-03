@@ -9,6 +9,10 @@ body {
 			background-color: #999;
 }
 
+body#grave {
+  background-image: url('../backgrounds/grave.png');
+}
+
 body#racers {
   background-image: url('../backgrounds/racers.png');
 }
